@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/normalize.css " rel="stylesheet">
+
+    <style>
+        section{
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+
+        }
+        body>section:nth-child(1){
+            background: red;
+            left: 0;
+            top: 0;
+        }
+        body>section:nth-child(2){
+            background: green;
+            right: 0;
+            top: 0;
+        }
+        body>section:nth-child(3){
+            background: yellow;
+            left: 0;
+            bottom: 0;
+        }
+        body>section:nth-child(4){
+            background: deeppink;
+            right: 0;
+            bottom: 0;
+
+        }
+        body>aside{
+            width: 120px;
+            height: 120px;
+            background: white;
+            position: absolute;
+
+        }
+        body>aside:nth-child(5){
+            left: 0;
+            top: 0;
+            border-bottom-right-radius: 100px;
+        }
+        body>aside:nth-child(6){
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 100px;
+        }
+        body>aside:nth-child(7){
+            left: 0;
+            bottom: 0;
+            border-top-right-radius: 100px;
+        }
+        body>aside:nth-child(8){
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 100px;
+        }
+        body>article{
+            /*top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;*/
+            width: 200px;
+            height: 200px;
+            background: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        body>div{
+            width: 193px;
+            height: 95px;
+            background: white;
+            position: absolute;
+        }
+        body>div:nth-child(10){
+            right: 0;
+            left: 0;
+            margin: auto;
+            border-bottom-right-radius: 120px;
+            border-bottom-left-radius: 120px;
+        }
+        body>div:nth-child(11){
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            border-top-right-radius: 120px;
+            border-top-left-radius: 120px;
+        }
+        body>section>div{
+            width: 175px;
+            height: 175px;
+            background: white;
+            border-radius: 100px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        body>section>div>div{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        article>div{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            border-radius: 100px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<article>
+    <div></div>
+</article>
+<div></div>
+<div></div>
+</body>
+</html>
